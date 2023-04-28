@@ -11,22 +11,14 @@ function copyMenu (){
 }
 copyMenu() ; 
 
-const submenus = document.querySelectorAll('.has-child .icon-small');
-submenus.forEach((menu) => menu.addEventListener('click',toggle));
-
-function toggle(e) {
-  e.preventDefault();
-  
-  // Loại bỏ class 'expanded' khỏi tất cả các phần tử có class 'has-child' trừ phần tử hiện tại
-  submenus.forEach((item) => {
-    if (item !== this) {
-      item.closest('.has-child').classList.remove('expanded');
-    }
-  });
-
-  // Thêm hoặc loại bỏ class 'expand' của phần tử hiện tại
-  this.closest('.has-child').classList.toggle('expanded');
-}
 
 
+const swiper = new Swiper('.swiper', {
 
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+});
