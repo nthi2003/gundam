@@ -739,7 +739,50 @@ form.search button {
     text-overflow: ellipsis;
     display: --webkit-box;
     -webkit-box-orient: vertical;
+    
  }
+ .products .price .current {
+    font-size: calc(1em + 1vw);
+    color: var(--primary-color);
+    margin-right: 0.25em;
+ }
+ .products .price .normal {
+    color: var(--light-text-color);
+    text-decoration: line-through;
+ }
+ .products .stock .qty {
+    display: flex;
+    justify-content: space-between;
+ }
+ .products .stock .bar {
+    height: 3px;
+    margin-top: 1em;
+    background-color: var(--border-color);
+    overflow: hidden;
+ }
+ .products .stock .available {
+    height: 3px;
+    width: 21%;
+    background-color: var(--secondary-color);
+
+ }
+ .products.mini .item{
+    margin-bottom: 2em;
+
+}
+.products.mini .media {
+    width: 130px;
+    height: 160px;
+    margin-right:1.25em ;
+}
+.products .item {
+    display: flex;
+    position: relative;
+}
+.products:where(.mini,.main) h3 {
+    font-family: 400;
+}
+ 
 
 
 
