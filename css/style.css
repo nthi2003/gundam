@@ -715,7 +715,7 @@ form.search button {
     display: flex;
     flex-direction: column;
  }
- .products:where(.big, .main.one) .content {
+ .products:where(.big, .main, .one) .content {
     gap: 1em;
     margin-top: 1.25em;
  }
@@ -779,16 +779,61 @@ form.search button {
     display: flex;
     position: relative;
 }
+.products.mini .content{
+    margin: 0;
+    gap: 0.75em;
+}
 .products:where(.mini,.main) h3 {
     font-family: 400;
 }
- 
+ .list{
+    display: flex;
+    margin-bottom: 20px;
+ }
+ .products.main .item {
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 0 0.938em ;
+    padding-bottom: 2em;
+ }
+ .products.main .media {
+    height: 390px;
+ }
+ .products.main .footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 1em 1em;
+    border-radius: 7px;
+    background: linear-gradient(0 deg var(--light-bg-color)0% , var(--white-color));
+ }
+ .products.main .footer ul {
+    list-style: disc;
+    padding: 1.25em 0 0 1.25em;
+    border-top: 1px solid var(--border-color);
+ }
 
 
 
+@media screen  and (min-width: 481px) {
+    .products.main .item {
+        flex: 0 0 50%;
+    }
+    
+}
 
-
-
+@media screen and (min-width: 768px) 
+{
+    .products .price .current {
+        font-size: 1.25em;
+    }    
+    .products.mini {
+        flex: 0 0 50%;
+    }
+    .products.main .item {
+        flex: 0 0 33.333%;
+    }
+}
 
 @media screen and (min-width:992px) {
     
@@ -961,4 +1006,8 @@ form.search button {
     .products.big .media {
         max-height: 373px;
     }
+    .products.mini {
+        flex: 0 0 25%;
+    }
+    
 }

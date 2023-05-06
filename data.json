@@ -1,6 +1,6 @@
 [
     {
-        "name": "EXPANSION PARTS SET FOR DEMI TRAINER - HG 1/144 - GUNDAM THE WITCH FROM MERCURY",
+        "name": "EXPANSION PARTS SET FOR DEMI TRAINER - HG 1/144",
         "sale": "8.52",
         "price": "21.52",
         "image": "https://product.hstatic.net/1000231532/product/expansion_parts_set_for_demi_trainer_hg_gundam_b6836b11393d4911943ac42274cfbe0d_master.jpg"
@@ -12,11 +12,18 @@
         "image": "https://product.hstatic.net/1000231532/product/gundam_shop_ban_msm-04g_juaggu_unicorn_ver_hguc_gundam_e66f275cccb44be898c15169025b25b1_master.jpg"
      },
      {
-        "name": "MSM-04G JUAGGU - UNICORN VER - HGUC - 1/144",
-        "sale": "12.2",
-        "price": "19.60",
-        "image": "https://product.hstatic.net/1000231532/product/gundam_shop_ban_msm-04g_juaggu_unicorn_ver_hguc_gundam_e66f275cccb44be898c15169025b25b1_master.jpg"
-     }
+        "name": "RX-78-2 GUNDAM VER. ONE YEAR WAR 0079 ANIME COLOR ",
+        "sale": "11.2",
+        "price": "32.60",
+        "image": "https://product.hstatic.net/1000231532/product/shop_gundam_ban_rx-78-2_gundam_ver._one_year_war_0079_anime_color_mg_45af2352115043dfa95a000f630ffdaa_master.jpg"
+     },
+     {
+      "name": "RX-78-2 GUNDAM VER. ONE YEAR WAR 0079 ANIME COLOR ",
+      "sale": "12.2",
+      "price": "19.60",
+      "image": "https://product.hstatic.net/1000231532/product/shop_gundam_ban_rx-78-2_gundam_ver._one_year_war_0079_anime_color_mg_45af2352115043dfa95a000f630ffdaa_master.jpg"
+   }
+   
      
 
 ]
