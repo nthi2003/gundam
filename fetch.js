@@ -115,6 +115,13 @@ fetch('./data.json')
             <p>2891 sold</p>
             <p>Free Shipping</p>
           </div>
+          <div class="footer">
+           <ul class="mini-text">
+              <li></li>       
+              <li></li>
+              <li></li>    
+           </ul>
+          </div>
         </div>
         </div>
                 `);
